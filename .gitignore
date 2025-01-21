@@ -1,0 +1,31 @@
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore virtual environment
+rag_env/
+venv/
+env/
+
+# Ignore Python distribution files
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system-specific files
+.DS_Store      # macOS
+Thumbs.db      # Windows
+
+# Ignore logs
+*.log
+
+# Ignore Ollama CLI configuration (if any sensitive files are involved)
+ollama_config/
+
+# Ignore PDF file (if not meant to be tracked)
+data/input.pdf
