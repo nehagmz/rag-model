@@ -1,5 +1,3 @@
-Here's the revised `README.md` with the anonymized output to ensure privacy:
-
 ---
 
 # RAG System: PDF-Based Question Answering
